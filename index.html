@@ -32,8 +32,7 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Logo (Home Button) -->
                 <a href="#" class="nav-link" data-page="home">
-                    <!-- The image source is now updated to 'logo.jpg' -->
-                    <img src="assets/logo.jpg" alt="M.A.I.N 로고" class="h-12">
+                    <img src="assets/logo.jpg" alt="M.A.I.N 로고" class="h-12" onerror="this.onerror=null;this.src='https://placehold.co/150x50/f0f0f0/333?text=M.A.I.N';">
                 </a>
                 
                 <!-- Navigation Links -->
@@ -68,37 +67,37 @@
         <div id="home" class="page-content">
             <div class="space-y-16 md:space-y-24">
                  <section class="text-center">
-                    <div class="flex justify-center mb-8">
-                        <img 
-                            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/c9797d34d__2.png" 
-                            alt="M.A.I.N 로고" 
-                            class="h-24 md:h-32" 
-                            onerror="this.onerror=null;this.src='https://placehold.co/128x128/f0f0f0/333?text=Logo';"
-                        />
-                    </div>
-                    <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 tracking-tight">
-                        Meet AI with New curriculum
-                    </h1>
-                    <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-500">
-                        새로운 AI 교육과정을 연구하고 실천하는 교사 연구회, M.A.I.N. 입니다.
-                    </p>
-                    <div class="mt-8 flex justify-center gap-4">
-                        <a href="#" class="nav-link" data-page="apply">
-                            <button class="inline-flex items-center justify-center font-semibold transition-colors px-6 py-3 text-base bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-lg">
-                                연구회 지원하기 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5">
-                                    <path d="M5 12h14"></path>
-                                    <path d="m12 5 7 7-7 7"></path>
-                                </svg>
-                            </button>
-                        </a>
-                        <a href="#" class="nav-link" data-page="materials">
-                            <button class="inline-flex items-center justify-center font-semibold transition-colors px-6 py-3 text-base border border-gray-300 bg-transparent text-gray-700 hover:bg-gray-100 rounded-full shadow-lg">
-                                연구 자료 보기
-                            </button>
-                        </a>
-                    </div>
-                </section>
+                     <div class="flex justify-center mb-8">
+                         <img 
+                             src="assets/main-logo.png" 
+                             alt="M.A.I.N 로고" 
+                             class="h-24 md:h-32" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/128x128/f0f0f0/333?text=Logo';"
+                         />
+                     </div>
+                     <h1 class="text-4xl md:text-6xl font-extrabold text-gray-800 tracking-tight">
+                         Meet AI with New curriculum
+                     </h1>
+                     <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-500">
+                         새로운 AI 교육과정을 연구하고 실천하는 교사 연구회, M.A.I.N. 입니다.
+                     </p>
+                     <div class="mt-8 flex justify-center gap-4">
+                         <a href="#" class="nav-link" data-page="apply">
+                             <button class="inline-flex items-center justify-center font-semibold transition-colors px-6 py-3 text-base bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-lg">
+                                 연구회 지원하기 
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5">
+                                     <path d="M5 12h14"></path>
+                                     <path d="m12 5 7 7-7 7"></path>
+                                 </svg>
+                             </button>
+                         </a>
+                         <a href="#" class="nav-link" data-page="materials">
+                             <button class="inline-flex items-center justify-center font-semibold transition-colors px-6 py-3 text-base border border-gray-300 bg-white text-gray-700 hover:bg-gray-100 rounded-full shadow-lg">
+                                 연구 자료 보기
+                             </button>
+                         </a>
+                     </div>
+                 </section>
 
                 <section class="grid md:grid-cols-2 gap-12 items-center">
                     <div>
@@ -109,7 +108,7 @@
                     </div>
                     <div class="bg-teal-50 rounded-3xl p-8 flex flex-col items-center justify-center text-center">
                         <img 
-                            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/0f7addf36_KakaoTalk_20241223_141442693_01.png" 
+                            src="assets/character-mainy.png" 
                             alt="M.A.I.N 캐릭터 메이니" 
                             class="h-40" 
                             onerror="this.onerror=null;this.src='https://placehold.co/160x160/e0f2f1/004d40?text=Mascot';"
@@ -118,52 +117,137 @@
                         <p class="text-teal-700">새로운 아이디어가 번뜩이는 즐거운 AI 교육을 함께해요!</p>
                     </div>
                 </section>
+                
+                <!-- === NEW: Quick Links Section === -->
+                <section>
+                    <h2 class="text-3xl font-bold text-gray-800 text-center mb-10">주요 활동 바로가기</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <!-- Card 1: Materials -->
+                        <a href="#" class="nav-link block group" data-page="materials">
+                            <div class="bg-white p-8 rounded-2xl shadow-md h-full flex flex-col items-start transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
+                                <div class="bg-pink-100 text-pink-600 p-3 rounded-full mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-2">연구 활동 자료</h3>
+                                <p class="text-gray-500 flex-grow">교육과정, 지도안 등 다양한 연구 자료를 확인해보세요.</p>
+                                <div class="mt-4 text-pink-500 font-semibold flex items-center">
+                                    자세히 보기 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Card 2: Members -->
+                        <a href="#" class="nav-link block group" data-page="members">
+                            <div class="bg-white p-8 rounded-2xl shadow-md h-full flex flex-col items-start transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
+                                <div class="bg-pink-100 text-pink-600 p-3 rounded-full mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-2">연구회원 소개</h3>
+                                <p class="text-gray-500 flex-grow">M.AI.N을 이끌어가는 열정적인 선생님들을 만나보세요.</p>
+                                <div class="mt-4 text-pink-500 font-semibold flex items-center">
+                                    자세히 보기 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                                </div>
+                            </div>
+                        </a>
+                        <!-- Card 3: Lectures -->
+                        <a href="#" class="nav-link block group" data-page="lectures">
+                            <div class="bg-white p-8 rounded-2xl shadow-md h-full flex flex-col items-start transition-all duration-300 group-hover:shadow-xl group-hover:-translate-y-1">
+                                <div class="bg-pink-100 text-pink-600 p-3 rounded-full mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8"><path d="m22 8-6 4 6 4V8Z"></path><rect width="14" height="12" x="2" y="6" rx="2" ry="2"></rect></svg>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-800 mb-2">인트로 특강</h3>
+                                <p class="text-gray-500 flex-grow">AI 교육에 대한 기초를 다질 수 있는 특강 영상들을 제공합니다.</p>
+                                <div class="mt-4 text-pink-500 font-semibold flex items-center">
+                                    자세히 보기 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1 w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
             </div>
         </div>
 
         <!-- 2. 연구회 이력 -->
         <div id="history" class="page-content">
-             <div class="max-w-4xl mx-auto">
+            <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-16">
                     <h1 class="text-4xl font-bold text-gray-800 mb-4">연구회 이력</h1>
                     <p class="text-gray-600 text-lg">M.AI.N의 발자취를 따라가보세요</p>
                 </div>
-
+        
                 <div class="relative">
-                    <div class="absolute left-4 top-0 h-full w-0.5 bg-gray-200" aria-hidden="true"></div>
+                    <!-- Timeline line - hidden on mobile for cleaner look -->
+                    <div class="hidden md:block absolute left-6 top-0 h-full w-0.5 bg-gray-200" aria-hidden="true"></div>
                     
-                    <div class="relative space-y-12">
-                        <!-- History Item 1 -->
-                        <div class="relative pl-12">
-                            <div class="absolute left-0 top-0 mt-1 w-8 h-8 bg-pink-500 rounded-full border-4 border-gray-50 flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-white"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <div class="space-y-16">
+                        <!-- History Item 2021 -->
+                        <div class="relative md:pl-20">
+                            <div class="absolute md:left-0 left-1/2 md:transform-none transform -translate-x-1/2 top-0 w-12 h-12 bg-blue-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.084a1 1 0 0 0 0 1.838l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 6 0 0 0 12 0v-3.5"/></svg>
                             </div>
-                            <div class="bg-white p-6 rounded-2xl shadow-lg ml-4">
-                                <p class="text-lg font-bold text-pink-500">2024</p>
-                                <h3 class="text-xl font-bold text-gray-800 mt-2">M.AI.N 인공지능교육 교사연구회 창립</h3>
-                                <p class="text-gray-600 mt-2 leading-relaxed">새로운 AI 교육의 시작을 알리며 연구회를 공식 창립했습니다.</p>
+                            <div class="bg-white rounded-3xl shadow-lg p-8 md:ml-4 mt-8 md:mt-0">
+                                <div class="text-center md:text-left">
+                                    <span class="inline-block px-4 py-2 rounded-full text-sm font-bold bg-blue-500 text-white mb-6">2021</span>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3 text-gray-700">
+                                            <span class="text-pink-500 mt-1.5 text-xs">•</span>
+                                            <span class="leading-relaxed">성균관대학교 교육대학원 인공지능융합교육 석사과정 입학</span>
+                                        </li>
+                                        <li class="flex items-start gap-3 text-gray-700">
+                                            <span class="text-pink-500 mt-1.5 text-xs">•</span>
+                                            <span class="leading-relaxed">초등선생님들로 구성된 프로젝트 팀 구성</span>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <!-- History Item 2 -->
-                        <div class="relative pl-12">
-                            <div class="absolute left-0 top-0 mt-1 w-8 h-8 bg-teal-500 rounded-full border-4 border-gray-50 flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-white"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        <!-- History Item 2022 -->
+                        <div class="relative md:pl-20">
+                            <div class="absolute md:left-0 left-1/2 md:transform-none transform -translate-x-1/2 top-0 w-12 h-12 bg-pink-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
                             </div>
-                            <div class="bg-white p-6 rounded-2xl shadow-lg ml-4">
-                                <p class="text-lg font-bold text-teal-500">2025</p>
-                                <h3 class="text-xl font-bold text-gray-800 mt-2">M.AI.N 웹페이지 개설</h3>
-                                <p class="text-gray-600 mt-2 leading-relaxed">연구회의 활동을 공유하고 소통할 수 있는 온라인 플랫폼을 구축했습니다.</p>
+                            <div class="bg-white rounded-3xl shadow-lg p-8 md:ml-4 mt-8 md:mt-0">
+                                <div class="text-center md:text-left">
+                                    <span class="inline-block px-4 py-2 rounded-full text-sm font-bold bg-pink-500 text-white mb-6">2022</span>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">한국과학창의재단 인공지능교육교사연구회(SK.AI)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">네이버 소프트웨어야놀자(티처스랩) 인공지능교육교사연구회(On.AI.R)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">제2회 AI융합교육 수업지도안 공모전 AI교과융합분야 AI융합교육연구지원센터장상(AI융합교육연구지원센터)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">제 2회 인공지능 융합교육전공 SW•AI교육 창의융합 수업사례 공모전 금상(성균관대학교 교육대학원)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">제 4회 교육공공데이터 분석활용대회 데이터분석분야 우수상 2팀(교육부)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">경기도교육청 인공지능융합교육전공 성과나눔 우수사례발표</span></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                        <!-- History Item 3 -->
-                        <div class="relative pl-12">
-                            <div class="absolute left-0 top-0 mt-1 w-8 h-8 bg-purple-500 rounded-full border-4 border-gray-50 flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-white"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                        <!-- History Item 2023 -->
+                        <div class="relative md:pl-20">
+                            <div class="absolute md:left-0 left-1/2 md:transform-none transform -translate-x-1/2 top-0 w-12 h-12 bg-teal-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
                             </div>
-                            <div class="bg-white p-6 rounded-2xl shadow-lg ml-4">
-                                <p class="text-lg font-bold text-purple-500">2026</p>
-                                <h3 class="text-xl font-bold text-gray-800 mt-2">우주정복</h3>
-                                <p class="text-gray-600 mt-2 leading-relaxed">M.AI.N의 혁신적인 교육 방법으로 우주까지 진출할 예정입니다! 🚀</p>
+                            <div class="bg-white rounded-3xl shadow-lg p-8 md:ml-4 mt-8 md:mt-0">
+                                <div class="text-center md:text-left">
+                                    <span class="inline-block px-4 py-2 rounded-full text-sm font-bold bg-teal-500 text-white mb-6">2023</span>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">네이버커넥트 재단 1784 스쿨혁명 대학생 멘토링단</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">한국과학창의재단 인공지능교육교사연구회(PL.AI)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">성균관대학교 교육대학원 인공지능융합교육 석사과정 졸업</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- History Item 2024 -->
+                        <div class="relative md:pl-20">
+                            <div class="absolute md:left-0 left-1/2 md:transform-none transform -translate-x-1/2 top-0 w-12 h-12 bg-purple-500 rounded-full border-4 border-white shadow-lg flex items-center justify-center z-10">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div class="bg-white rounded-3xl shadow-lg p-8 md:ml-4 mt-8 md:mt-0">
+                                <div class="text-center md:text-left">
+                                    <span class="inline-block px-4 py-2 rounded-full text-sm font-bold bg-purple-500 text-white mb-6">2024</span>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">네이버 소프트웨어야놀자(티처스랩) 인공지능교육교사연구회 파트너스트랙(M.AI.N)</span></li>
+                                        <li class="flex items-start gap-3 text-gray-700"><span class="text-pink-500 mt-1.5 text-xs">•</span><span class="leading-relaxed">초등을 넘어 중등선생님들을 영입하여 연구회 확장</span></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -179,29 +263,36 @@
                     <p class="text-gray-600 text-lg">M.AI.N을 이끌어가는 열정적인 선생님들을 만나보세요</p>
                 </div>
 
-                <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Member 1 -->
-                    <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
                         <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces" alt="민정권" class="w-full h-80 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/ccc/333?text=Profile';">
+                            <img src="assets/member-1.jpg" alt="민정권" class="w-full h-80 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/ccc/333?text=Profile';">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                         </div>
-                        <div class="p-6 text-center">
+                        <div class="p-6 text-center flex flex-col flex-grow">
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">민정권</h3>
                             <p class="text-pink-500 font-semibold mb-3">부천대장, 시흥정복자</p>
-                            <p class="text-gray-600 leading-relaxed">부천과 시흥 지역의 AI 교육을 이끌어가는 열정적인 교육자입니다. 혁신적인 교육 방법으로 학생들에게 새로운 영감을 주고 있습니다.</p>
+                            <p class="text-gray-600 leading-relaxed flex-grow">부천과 시흥 지역의 AI 교육을 이끌어가는 열정적인 교육자입니다. 혁신적인 교육 방법으로 학생들에게 새로운 영감을 주고 있습니다.</p>
                         </div>
                     </div>
                     <!-- Member 2 -->
-                    <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-3xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
                         <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=400&h=400&fit=crop&crop=faces" alt="침묵부엉이" class="w-full h-80 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/ccc/333?text=Profile';">
+                            <img src="assets/member-2.jpg" alt="침묵부엉이" class="w-full h-80 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x400/ccc/333?text=Profile';">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                         </div>
-                        <div class="p-6 text-center">
+                        <div class="p-6 text-center flex flex-col flex-grow">
                             <h3 class="text-2xl font-bold text-gray-800 mb-2">침묵부엉이</h3>
                             <p class="text-pink-500 font-semibold mb-3">소리없이사라지기, 골방에서춤추기</p>
-                            <p class="text-gray-600 leading-relaxed">조용하지만 강력한 교육 철학을 가진 신비로운 교육자입니다. 창의적인 접근 방식으로 학생들의 잠재력을 끌어내는 데 탁월합니다.</p>
+                            <p class="text-gray-600 leading-relaxed flex-grow">조용하지만 강력한 교육 철학을 가진 신비로운 교육자입니다. 창의적인 접근 방식으로 학생들의 잠재력을 끌어내는 데 탁월합니다.</p>
+                        </div>
+                    </div>
+                    <!-- New Member Placeholder -->
+                    <div class="rounded-3xl border-2 border-dashed border-gray-300 flex flex-col items-center justify-center p-6 text-center bg-gray-50/50 hover:border-pink-400 hover:bg-pink-50 transition-colors duration-300">
+                        <div class="text-gray-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-16 h-16 mx-auto mb-4"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg>
+                            <h3 class="text-2xl font-bold mt-2">Who's next?</h3>
                         </div>
                     </div>
                 </div>
@@ -211,46 +302,65 @@
         <!-- 4. 연구 활동 자료 -->
         <div id="materials" class="page-content">
              <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-12">
-                    <h1 class="text-4xl font-bold text-gray-800 mb-4">연구 활동 자료</h1>
-                    <p class="text-gray-600 text-lg">M.A.I.N.의 생생한 연구 활동들을 만나보세요.</p>
-                </div>
-                <div class="space-y-6">
-                    <!-- Material 1 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">교사연구회 1짱 먹음</h2>
-                        <p class="text-gray-600 mb-4">우리 연구회가 전국 교사연구회 평가에서 최우수상을 수상했습니다! 모든 연구회원들의 노력이 결실을 맺었네요.</p>
-                        <div class="flex items-center text-sm text-gray-500 space-x-4">
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path></svg>M.A.I.N 관리자</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>2024.12.23</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>1234</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>15</span>
-                        </div>
-                    </div>
-                    <!-- Material 2 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">대통령상 수상 예정</h2>
-                        <p class="text-gray-600 mb-4">우리 연구회의 혁신적인 AI 교육 커리큘럼이 인정받아 대통령상 수상이 확정되었습니다. 수상식은 내년 초에 진행될 예정입니다.</p>
-                        <div class="flex items-center text-sm text-gray-500 space-x-4">
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path></svg>민정권</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>2024.12.22</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>987</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>23</span>
-                        </div>
-                    </div>
-                    <!-- Material 3 -->
-                    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">누구나 쓸 수 있는 교육자료</h2>
-                        <p class="text-gray-600 mb-4">모든 선생님들이 쉽게 활용할 수 있는 AI 교육 자료를 공개합니다. 수업에 바로 적용 가능한 실용적인 콘텐츠들을 준비했어요.</p>
-                        <div class="flex items-center text-sm text-gray-500 space-x-4">
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path></svg>침묵부엉이</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect><line x1="16" x2="16" y1="2" y2="6"></line><line x1="8" x2="8" y1="2" y2="6"></line><line x1="3" x2="21" y1="10" y2="10"></line></svg>2024.12.21</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg>756</span>
-                            <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 mr-1"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>8</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                 <div class="text-center mb-12">
+                     <h1 class="text-4xl font-bold text-gray-800 mb-4">연구 활동 자료</h1>
+                     <p class="text-gray-600 text-lg">M.A.I.N.의 생생한 연구 활동들을 만나보세요.</p>
+                 </div>
+                 <div class="space-y-8">
+                     <!-- Material 1 -->
+                     <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                         <div class="flex justify-between items-start">
+                             <div>
+                                 <h2 class="text-2xl font-bold text-gray-800 mb-2">생성형 AI와 함께하는 생기부 초안 작성하기</h2>
+                                 <div class="flex items-center text-sm text-gray-500 space-x-4 mb-4">
+                                     <span>작성자: 민정권</span>
+                                     <span>|</span>
+                                     <span>2024-07-26</span>
+                                 </div>
+                             </div>
+                             <span class="text-xs font-semibold bg-pink-100 text-pink-700 px-3 py-1 rounded-full">연수자료</span>
+                         </div>
+                         <p class="text-gray-600 mb-6">네이버 커넥트재단 연수자료입니다. 생성형 AI를 활용하여 학교생활기록부 초안을 효율적으로 작성하는 방법을 안내합니다.</p>
+                         <div>
+                             <h4 class="font-semibold text-gray-700 mb-3">자료 다운로드</h4>
+                             <div class="flex flex-col space-y-2">
+                                 <a href="documents/m1_naver_report.hwpx" download class="flex items-center space-x-2 text-blue-600 hover:underline">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                                     <span>m1_naver_report.hwpx</span>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Material 2 -->
+                     <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                         <div class="flex justify-between items-start">
+                             <div>
+                                 <h2 class="text-2xl font-bold text-gray-800 mb-2">AI와 함께하는 우리학교 홍보 포스터 만들기</h2>
+                                 <div class="flex items-center text-sm text-gray-500 space-x-4 mb-4">
+                                     <span>작성자: 침묵부엉이</span>
+                                     <span>|</span>
+                                     <span>2024-06-15</span>
+                                 </div>
+                             </div>
+                             <span class="text-xs font-semibold bg-teal-100 text-teal-700 px-3 py-1 rounded-full">수업자료</span>
+                         </div>
+                         <p class="text-gray-600 mb-6">AI 이미지 생성 도구를 활용하여 학생들이 직접 학교 홍보 포스터를 만들어보는 프로젝트 수업 자료입니다.</p>
+                         <div>
+                             <h4 class="font-semibold text-gray-700 mb-3">자료 다운로드</h4>
+                             <div class="flex flex-col space-y-2">
+                                 <a href="documents/m2_poster_guide.pdf" download class="flex items-center space-x-2 text-blue-600 hover:underline">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                                     <span>m2_poster_guide.pdf</span>
+                                 </a>
+                                 <a href="documents/m2_student_works.zip" download class="flex items-center space-x-2 text-blue-600 hover:underline">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                                     <span>m2_student_works.zip</span>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
         </div>
 
         <!-- 5. 인트로 특강 -->
@@ -262,9 +372,9 @@
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                     <!-- Lecture 1 -->
-                    <a href="https://youtube.com" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
+                    <a href="https://youtube.com/shorts/JZ-m4rkbqr8?feature=share" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
                         <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop" alt="AI 교육의 미래와 방향성" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
+                            <img src="https://img.youtube.com/vi/JZ-m4rkbqr8/hqdefault.jpg" alt="생성형 AI와 함께하는 교실" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
                             <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <div class="bg-white/90 group-hover:bg-pink-500 group-hover:text-white text-pink-500 rounded-full p-4 transition-all duration-300 transform group-hover:scale-110 shadow-lg">
@@ -273,13 +383,13 @@
                             </div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">AI 교육의 미래와 방향성</h3>
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">생성형 AI와 함께하는 교실</h3>
                         </div>
                     </a>
                     <!-- Lecture 2 -->
-                    <a href="https://youtube.com" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
+                    <a href="https://youtu.be/MEarKSrQkbQ" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
                         <div class="relative">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop" alt="ChatGPT를 활용한 수업 설계" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
+                            <img src="https://img.youtube.com/vi/MEarKSrQkbQ/hqdefault.jpg" alt="AI 디지털교과서, 특수교사를 위한 단비같은 기능" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
                             <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
                             <div class="absolute inset-0 flex items-center justify-center">
                                 <div class="bg-white/90 group-hover:bg-pink-500 group-hover:text-white text-pink-500 rounded-full p-4 transition-all duration-300 transform group-hover:scale-110 shadow-lg">
@@ -288,10 +398,39 @@
                             </div>
                         </div>
                         <div class="p-6">
-                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">ChatGPT를 활용한 수업 설계</h3>
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">AI 디지털교과서, 특수교사를 위한 단비같은 기능</h3>
                         </div>
                     </a>
-                    <!-- Lecture 3 & 4 can be added similarly -->
+                    <!-- Lecture 3 -->
+                    <a href="https://youtu.be/oxgOJtNcXTc" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
+                        <div class="relative">
+                            <img src="https://img.youtube.com/vi/oxgOJtNcXTc/hqdefault.jpg" alt="학생 참여를 이끄는 AI 교수법" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="bg-white/90 group-hover:bg-pink-500 group-hover:text-white text-pink-500 rounded-full p-4 transition-all duration-300 transform group-hover:scale-110 shadow-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 ml-1"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">학생 참여를 이끄는 AI 교수법</h3>
+                        </div>
+                    </a>
+                    <!-- Lecture 4 -->
+                    <a href="https://youtu.be/dnECUErNL1Q" target="_blank" class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group">
+                        <div class="relative">
+                            <img src="https://img.youtube.com/vi/dnECUErNL1Q/hqdefault.jpg" alt="AI로 달라지는 교실" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" onerror="this.onerror=null;this.src='https://placehold.co/400x300/ccc/333?text=Video';">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="bg-white/90 group-hover:bg-pink-500 group-hover:text-white text-pink-500 rounded-full p-4 transition-all duration-300 transform group-hover:scale-110 shadow-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 ml-1"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-500 transition-colors duration-300 text-center">AI로 달라지는 교실</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -300,15 +439,15 @@
         <div id="apply" class="page-content">
             <div class="max-w-4xl mx-auto">
                  <div class="text-center mb-12">
-                    <h1 class="text-4xl font-bold text-gray-800 mb-4">연구회 지원</h1>
-                </div>
-                <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
-                    <h2 class="text-2xl font-bold text-gray-800 mb-4">M.A.I.N.과 함께할 선생님을 기다립니다!</h2>
-                    <p class="text-gray-600 leading-relaxed">
-                        연구회 지원과 관련된 상세 정보가 곧 업데이트될 예정입니다. <br>
-                        지원 방법, 자격 요건, 모집 기간 등을 안내해 드릴 예정이오니 조금만 기다려주세요.
-                    </p>
-                </div>
+                     <h1 class="text-4xl font-bold text-gray-800 mb-4">연구회 지원</h1>
+                 </div>
+                 <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+                     <h2 class="text-2xl font-bold text-gray-800 mb-4">M.A.I.N.과 함께할 선생님을 기다립니다!</h2>
+                     <p class="text-gray-600 leading-relaxed">
+                         연구회 지원과 관련된 상세 정보가 곧 업데이트될 예정입니다. <br>
+                         지원 방법, 자격 요건, 모집 기간 등을 안내해 드릴 예정이오니 조금만 기다려주세요.
+                     </p>
+                 </div>
             </div>
         </div>
 
@@ -335,6 +474,17 @@
 
                 // Update active link style
                 navLinks.forEach(link => {
+                    // Check all links, not just the ones in the main nav
+                    if (link.dataset.page === pageId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+                
+                // Specifically handle the main nav active state for non-home pages
+                const mainNavLinks = document.querySelectorAll('header nav .nav-link');
+                mainNavLinks.forEach(link => {
                     if (link.dataset.page === pageId) {
                         link.classList.add('active');
                     } else {
@@ -342,8 +492,12 @@
                     }
                 });
 
+
                 // Close mobile menu after selection
                 mobileMenu.classList.add('hidden');
+                
+                // Scroll to top
+                window.scrollTo(0, 0);
             }
 
             navLinks.forEach(link => {
